@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color:orange
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -34,4 +37,28 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px seagreen;
+
+}
+#web-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+
+}
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(#9b0845, #062cd6) 30;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
